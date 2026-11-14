@@ -8,13 +8,13 @@ Syed Ayan Ali Jaffery (26L-0814)
 M Fahad (26L-0764)
 
 ## About
-Made a TicTacToe game based on GUI where the player (X) plays against the computer (O). Built in C++ with SFML 2.6.x in Visual Studio.
+Made a TicTacToe game based on GUI where the player (X) plays against the computer (O). Built in C++ with SFML 2.6.2 in Visual Studio 2026
 
 ## Setup
-1. Download SFML 2.6.x. 
+1. Download SFML 2.6.2 
 2. Create an Empty C++ Project
-3. Additional Include Directories: `C:\SFML\SFML-2.6.1\include`
-5. Additional Library Directories: `C:\SFML\SFML-2.6.1\lib`
+3. Additional Include Directories: `C:\SFML\SFML-2.6.2\include`
+5. Additional Library Directories: `C:\SFML\SFML-2.6.2\lib`
 6. linked the code with sfml, for GUI.
 7. Additional Dependencies: `sfml-graphics-d.lib; sfml-window-d.lib; sfml-system-d.lib`
 8. Copy the three `-d-2.dll` files from `SFML\bin` into `x64\Debug`.
