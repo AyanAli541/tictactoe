@@ -1,14 +1,14 @@
 # tictactoe
-used SFML
 
 Programming Fundamentals Project 
 
 Group Members
 Syed Ayan Ali Jaffery (26L-0814)
+
 M Fahad (26L-0764)
 
 ## About
-This is a GUI Tic-Tac-Toe game where the player (X) plays against the computer (O). Built in C++ with SFML 2.6.x in Visual Studio.
+Made a TicTacToe game based on GUI where the player (X) plays against the computer (O). Built in C++ with SFML 2.6.x in Visual Studio.
 
 ## Setup
 1. Download SFML 2.6.x. 
@@ -22,15 +22,26 @@ This is a GUI Tic-Tac-Toe game where the player (X) plays against the computer (
 
 ## Done So Far 
 A 540 x 760 game window is created
+
 Board stored in `char board[3][3]` 
+
 'X' = player and 'O' = computer while ' ' = empty
+
 `resetBoard()` clears the board
+
+
 `drawGrid()` draws the 3x3 grid
+
+
 `drawX()` draws an X
+
  Left click places an X on an empty square
 
 ## Still To Do
 Draw the computer's O
+
 Computer moves (win, block, center, first empty square)
+
 Win, loss, and draw checking with an on screen message
+
 Restart button
