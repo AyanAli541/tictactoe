@@ -58,6 +58,20 @@ Visual Studio 2026
 
 SFML 2.6.2
 
+## Compile and Run
+Set the build to Debug and the platform to x64. 
+
+Press Ctrl + F5.
+
+## Troubleshooting
+Cannot open SFML/Graphics.hpp : check the Include Directories path.
+
+Unresolved external symbol: check the Library Directories path and the -d.lib dependencies.
+
+DLL not found: copy the SFML DLL files into x64\Debug . No X, O or text shown: check that the Arial font path exists. 
+
+Error 0xc000007b: make sure the platform is x64 and SFML is the 64-bit version.
+
 ## How to Play
 Click an empty square to place X. 
 
