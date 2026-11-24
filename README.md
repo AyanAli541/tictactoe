@@ -20,28 +20,45 @@ Made a TicTacToe game based on GUI where the player (X) plays against the comput
 8. Copy the three `-d-2.dll` files from `SFML\bin` into `x64\Debug`.
 9. Run the code
 
-## Done So Far 
+## Features 
 A 540 x 760 game window is created
 
 Board stored in `char board[3][3]` 
 
 'X' = player and 'O' = computer while ' ' = empty
 
-`resetBoard()` clears the board
-
-
-`drawGrid()` draws the 3x3 grid
-
-
-`drawX()` draws an X
-
- Left click places an X on an empty square
-
-## Still To Do
-Draw the computer's O
-
 Computer moves (win, block, center, first empty square)
 
 Win, loss, and draw checking with an on screen message
 
 Restart button
+
+`resetBoard()` clears the board
+
+`drawGrid()` draws the 3x3 grid
+
+`drawX()` draws an X
+
+`checkWinner()` checks for winner in all ways
+
+`findWinningMove()` checks if the player can win with one move
+
+`computerMove()` choose the computer move
+
+`drawTexts()` draw the title and message
+
+`drawButton()` Draw the restart button
+
+ Left click places an X on an empty square
+
+## Prerequisites
+Windows (x64) 
+Visual Studio 2026 
+SFML 2.6.2
+
+## How to Play
+Click an empty square to place X. 
+The computer plays O automatically. 
+Click Restart to play again.
+
+## Screenshots
