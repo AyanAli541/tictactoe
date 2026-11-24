@@ -1,5 +1,4 @@
 Libraries used in this project
-==============================
 
 1. SFML (Simple and Fast Multimedia Library)
    Version: 2.6.2
@@ -11,6 +10,6 @@ Libraries used in this project
 
 
 Other requirements
-------------------
+
 - Compiler: Visual Studio 2026
 - Platform: Windows, x64
