@@ -1,0 +1,16 @@
+Libraries used in this project
+==============================
+
+1. SFML (Simple and Fast Multimedia Library)
+   Version: 2.6.2
+   Website: https://www.sfml-dev.org/download.php
+   Modules used: sfml-graphics, sfml-window, sfml-system
+   Used for: creating the window, drawing shapes and text, and reading mouse clicks.
+
+2. C++ standard library
+
+
+Other requirements
+------------------
+- Compiler: Visual Studio 2026
+- Platform: Windows, x64
