@@ -53,12 +53,24 @@ Restart button
 
 ## Prerequisites
 Windows (x64) 
+
 Visual Studio 2026 
+
 SFML 2.6.2
 
 ## How to Play
 Click an empty square to place X. 
+
 The computer plays O automatically. 
+
 Click Restart to play again.
 
 ## Screenshots
+Draw
+<img width="1600" height="1171" alt="image" src="https://github.com/user-attachments/assets/1171cdbe-2ad1-4be4-837d-627d3593fb86" />
+
+
+Win
+<img width="1600" height="979" alt="image" src="https://github.com/user-attachments/assets/55499687-ec2e-4f4a-b9c1-8edf70cac3c3" />
+
+
